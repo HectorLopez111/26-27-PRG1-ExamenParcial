@@ -7,14 +7,15 @@ public class Examen {
     System.out.println("¿Es mayor de edad?: ");
     int edad = scanner.nextInt();
     System.out.println("¿Numero de asignaturas en las que estas matriculado: ");
-
+    int asignaturas = scanner.nextInt();
+   
     if (edad <= MAYOR_EDAD){
         System.out.println("es mayor de edad");
 
     }else{
         System.out.println("es menor de edad");
     }
-}
+}}
 
     
 
