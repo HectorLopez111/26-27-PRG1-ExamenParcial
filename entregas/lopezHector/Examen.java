@@ -6,8 +6,6 @@ public class Examen {
     final int MAYOR_EDAD=18;
     System.out.println("¿Es mayor de edad?: ");
     int edad = scanner.nextInt();
-    System.out.println("¿Numero de asignaturas en las que estas matriculado: ");
-    int asignaturas = scanner.nextInt();
 
     if (asignaturas > 10){
         System.out.println("¿Numero de asignaturas en las que estas matriculado: ");
@@ -19,6 +17,15 @@ public class Examen {
     }else{
         System.out.println("es menor de edad");
     }
+
+    for (int i = 1; i < asignaturas; i++) {
+
+    System.out.println("¿dime una nota entera: ");
+    int asignaturas = scanner.nextInt();
+    System.out.println("Nota de la asignatura N:");
+
+}
+
 }}
 
     
